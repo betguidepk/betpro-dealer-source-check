@@ -1,0 +1,50 @@
+BG-W13 — STORMKIT FINAL PRODUCTION DEPLOYMENT
+================================================
+
+Exact production host:
+https://robindandelion-rwuere.stormkit.dev/
+
+Repository:
+betguidepk/betpro-dealer-source-check
+
+Branch:
+main
+
+Stormkit settings:
+- Environment: production
+- Build command: blank
+- Output folder: .
+- Build root: repository root / blank
+- Headers file: _headers
+- Redirects file: redirects.json
+
+ACTION:
+Replace the repository root with the CONTENTS of this ZIP.
+Commit/push to main.
+Let Stormkit deploy and Publish to Production.
+
+This package ALREADY includes:
+- approved 3,500-word article
+- two approved contextual backlinks to https://betguide.pk/betpro-id-pakistan
+- exact Stormkit canonical
+- exact Stormkit sitemap URLs
+- robots.txt Allow: /
+- production index/follow meta
+- Stormkit production response-header configuration
+- exact GSC HTML verification tag:
+  <meta name="google-site-verification" content="WQYtwEaFanIPfsgccoIwmQ2Mak_BsNVnbXv91f6nhLA" />
+- Article + Organization + WebSite + WebPage + BreadcrumbList JSON-LD
+- 3 WebP illustrations
+- About
+- Editorial Policy
+- Privacy
+- Responsible Use & Risk
+- Contact & Corrections
+- custom noindex 404
+- favicon + manifest
+
+AFTER DEPLOYMENT:
+Check the live site first. Then use Google Search Console for this exact URL-prefix:
+https://robindandelion-rwuere.stormkit.dev/
+
+No further Phase-A package is needed.

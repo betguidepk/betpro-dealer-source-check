@@ -1,4 +1,23 @@
-/*
+/
+  X-Robots-Tag: index, follow, max-image-preview:large
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+
+/404.html
   X-Robots-Tag: noindex, nofollow, noarchive
   X-Content-Type-Options: nosniff
-  Referrer-Policy: no-referrer
+
+/about/*
+  X-Robots-Tag: noindex, follow
+
+/editorial-policy/*
+  X-Robots-Tag: noindex, follow
+
+/privacy/*
+  X-Robots-Tag: noindex, follow
+
+/responsible-use/*
+  X-Robots-Tag: noindex, follow
+
+/contact-corrections/*
+  X-Robots-Tag: noindex, follow
