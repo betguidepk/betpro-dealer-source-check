@@ -1,2 +1,4 @@
 User-agent: *
 Disallow: /
+
+Sitemap: https://betprodealer-toqrt8vr.b4a.run/sitemap.xml
