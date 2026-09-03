@@ -1,0 +1,41 @@
+BG-W13 — STORMKIT EXACT-HOST PHASE A
+
+Exact host:
+https://robindandelion-rwuere.stormkit.dev/
+
+Repository:
+betguidepk/betpro-dealer-source-check
+
+Branch:
+main
+
+Stormkit:
+- Environment: production
+- Build command: blank
+- Output folder: .
+- Build root: repository root / blank
+- Headers file: _headers
+- Redirects file: redirects.json
+
+Upload/replace the repository root with this package and let Stormkit redeploy/publish.
+
+Expected Phase A state:
+- root HTTP 200
+- marker: BPD-STORMKIT-PHASE-A-20260903
+- meta robots: noindex,nofollow,noarchive
+- exact canonical: https://robindandelion-rwuere.stormkit.dev/
+- response X-Robots-Tag: at least noindex
+- robots.txt: Disallow: /
+- robots.txt exact sitemap declaration
+- sitemap.xml exact root URL
+- random missing URL: genuine HTTP 404
+- custom 404 body: Page Not Found
+
+Intentionally absent:
+- approved 3,500-word production article
+- BetGuide backlinks
+- GSC verification tag
+- production JSON-LD
+- index/follow
+
+Do not submit sitemap or request indexing during Phase A.

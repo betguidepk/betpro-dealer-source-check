@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   padding: 40px 20px;
@@ -9,11 +10,16 @@ body {
   color: #14213d;
   background: #ffffff;
 }
+
 main {
   max-width: 720px;
   margin: 80px auto;
 }
-h1 { font-size: 2rem; }
+
+h1 {
+  font-size: 2rem;
+}
+
 .marker {
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 }
