@@ -1,0 +1,8 @@
+{
+  "name": "Dealer Source Check Pakistan",
+  "short_name": "Source Check",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#14213d"
+}

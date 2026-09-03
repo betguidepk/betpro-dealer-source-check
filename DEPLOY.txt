@@ -1,0 +1,30 @@
+BG-W13 FINAL PRODUCTION DEPLOYMENT
+==================================
+
+Exact host:
+https://betprodealer-toqrt8vr.b4a.run/
+
+Upload all files/folders from this package to the ROOT of:
+betguidepk/betpro-dealer-source-check
+
+Back4app:
+- Branch: main
+- Root Directory: ./
+- Build Method: Dockerfile
+- Start Command: blank
+
+After redeploy, DO NOT submit GSC sitemap/request indexing until live QA passes.
+
+Expected production checks:
+1. root HTTP 200
+2. root X-Robots-Tag: index, follow, max-image-preview:large
+3. HTML meta robots: index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1
+4. exact canonical: https://betprodealer-toqrt8vr.b4a.run/
+5. GSC verification tag retained
+6. robots.txt Allow: /
+7. sitemap.xml exact root URL
+8. random missing URL = genuine HTTP 404
+9. 404 has noindex
+10. two contextual links to https://betguide.pk/betpro-id-pakistan
+11. three WebP images load
+12. utility pages load and remain noindex
